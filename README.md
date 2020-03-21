@@ -26,7 +26,7 @@ and add "" to T:
 
 > this.t = ["if", ..., ""]
 
-Then you your grammar can construct an infinite number of sentences with a finite length deliminated by `.`, however the minimun number of sentences is one. <br>
+Then you your grammar can construct an infinite number of sentences (with a finite length) deliminated by `.`, however the minimun number of sentences is one. <br>
 
 > grammar.start().split(" . ") >= 1
 
