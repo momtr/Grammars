@@ -2,7 +2,7 @@
 An algorithm to create sentences following the rues of an invented grammar.
 
 ## Mathematically
-The depicted grammar is kind of a context-free grammar (only kind of). However, it follows the priciples of context free grammars:
+The depicted grammar is kind of a context-free grammar (only kind of). However, it follows the basic priciples of context free grammars:
 <br><br>
 > G = (V, ∑, R, S), where:
 
