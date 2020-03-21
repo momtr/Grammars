@@ -28,6 +28,6 @@ and add "" to T:
 
 Then you your grammar can construct an infinite number of sentences (with a finite length) deliminated by `.`, however the minimun number of sentences is one. <br>
 
-> grammar.start().split(" . ") >= 1
+> grammar.start().split(" . ").length >= 1
 
 However, it can cause a StackOverflowError when producing too many sentences. 
