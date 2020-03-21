@@ -17,7 +17,6 @@ Now we can create sentences/strings using an instance of that grammar.
 ## Run
 In order to run it, please open index.html :)
 
-![grammar](https://github.com/moritzmitterdorfer/Grammars/blob/master/output_grammers_1.png)
 
 ## Getting more sentences
 If you change the rule for a sentence to:
