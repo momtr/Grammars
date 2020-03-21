@@ -6,7 +6,7 @@ The depicted grammar is kind of a context-free grammar (only kind of). However, 
 <br><br>
 > G = (V, ∑, R, S), where:
 
-- `G` is the Grammar
+- `G` is a Grammar
 - `V` is a set of non-terminal symbols (= variables); e.g. P (for sentence)
 - `∑` is a set of terminal symbols, e.g. "4"
 - `R` is a set of rules; (a,b) element of R; a -> b
