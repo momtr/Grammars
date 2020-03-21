@@ -66,3 +66,5 @@ With increasing n by one: `n = 2` we have `n^2` different values in stage one. W
 As you can see:
 
 > PoT(t) >= PoT(t+1) >= PoT(t+2) >= ... >= PoT(t+n)
+
+That is the reason why the rule "S": ["C P V , E . S . S", ""] produces so many individual sentences!
