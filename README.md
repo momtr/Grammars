@@ -22,7 +22,7 @@ If you change the rule for a sentence to:
 
 > "S": ["C P V , E . S . S", ""] 
 
-and add "" to T:
+and add the empty symbol ("") to T:
 
 > this.t = ["if", ..., ""]
 
