@@ -53,7 +53,7 @@ we see that `n = 1`. Therefore the PoT in stage one is `n/2 = 50%`. When moving 
 Here we can see, that the PoT is constantly 25% if `n = 1`.
 <br>
 
-With increasing n by one: `n = 2` we have `n^2` different values for stage one. We have to take into consideration that the number of non-terminals may become `n^2`!
+With increasing n by one: `n = 2` we have `n^2` different values in stage one. We have to take into consideration that the number of non-terminals may become `n^2`!
 
 > S -> [aSS, e]
 
