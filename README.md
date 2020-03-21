@@ -16,3 +16,18 @@ Now we can create sentences/strings using an instance of that grammar.
 
 ## Run
 In order to run it, please open index.html :)
+
+## Getting more sentences
+If you change the rule for a sentence to:
+
+> "S": ["C P V , E . S . S", ""] 
+
+and add "" to T:
+
+> this.t = ["if", ..., ""]
+
+Then you your grammar can construct an infinite number of sentences with a finite length deliminated by `.`, however the minimun number of sentences is one. <br>
+
+> grammar.start().split(" . ") >= 1
+
+However, it can cause a StackOverflowError when producing too many sentences. 
