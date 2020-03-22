@@ -19,7 +19,7 @@ class Grammar {
         this.t = t;
         // r is a set of rules
         this.r = r;
-        // s is the starting work (since it is an element of v, it is a variable)
+        // s is the starting element (since it is an element of v, it is a variable)
         this.s = s;
     }
 
